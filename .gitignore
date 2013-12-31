@@ -26,13 +26,10 @@ Icon
 *.swp
 *.out
 
-# ITAM specfic files to ignore
+# SuspensionNotebook specfic files to ignore
 dist/**
 distribution/**
 out/**
-Security/Tools/ItamPostProcessor/staging/**
-Security/Tools/ItamPostProcessor/dist/**
-Security/Tools/distribution/**
 
 #IntelliJ user workspaces
 .idea/workspace.xml
