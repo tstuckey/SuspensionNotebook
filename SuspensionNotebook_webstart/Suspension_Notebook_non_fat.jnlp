@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- JNLP File for Suspension Notebook -->
+
+<jnlp spec="1.0+"
+	codebase="http://www.stuckeyracing.com/SuspensionNotebook/" 
+      href="Suspension_Notebook_non_fat.jnlp">
+   <information>
+      <title>Suspension Notebook</title>
+      <vendor>Stuckey Racing</vendor>
+      <description>The Suspension Notebook</description>
+      <homepage href="http://java.sun.com/docs/books/tutorial/deployment/webstart/running.html"/>
+      <description kind="short">This application provides a Configuration Management System
+       for suspension settings.</description>
+	<icon href="images/icon.jpg"/>
+      <offline-allowed/>
+   </information>
+   <resources>     
+	<!--JAR for the application -->
+   	<jar href="Suspension_Notebook_non_fat.jar"/>   
+	<!--JAR for the db connector -->
+   	<jar href="mysql-connector-java-5.1.7-bin.jar"/>   
+	<j2se version="1.6+"
+	      href="http://java.sun.com/products/autodl/j2se"/>
+   </resources>
+   <security>
+	   <all-permissions/>
+   </security>
+   <application-desc main-class="base.Suspension_Notebook"/>
+</jnlp>

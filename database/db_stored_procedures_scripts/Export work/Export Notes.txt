@@ -1,0 +1,7 @@
+Thoughts on Export Routine:
+
+Requirements:
+-Button operation that allows one or more settings to be imported and exported
+-For exports, a single export script should be put on the user's desktop
+-The script should be generated from the backend database not the front-end stored procedure calls
+-The script should either contain values or calls to stored procedures, not raw SQL 
