@@ -32,4 +32,6 @@ distribution/**
 out/**
 
 #IntelliJ user workspaces
-.idea/workspace.xml
+**\.idea/
+
+\.gitignore
